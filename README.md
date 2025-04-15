@@ -1,61 +1,71 @@
-# 🚀 Getting started with Strapi
+🚀 Strapi Setup - Task 1 | PearlThoughts Internship
+📌 Project Overview
+This project is a basic setup of Strapi (a headless CMS) created as part of the PearlThoughts Internship Task 1. It includes:
+- Cloning the official Strapi repo
+- Running the admin panel
+- Creating a content type (`Marvel`)
+- Ignoring unnecessary files
+- Pushing the setup to GitHub
+⚙️ Setup Instructions
+1. Clone the Official Strapi Repo (Optional for Exploration)
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
-
-### `develop`
-
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
-
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
+git clone https://github.com/strapi/strapi.git
+cd strapi
+yarn install
 yarn build
-```
 
-## ⚙️ Deployment
+2. Create a New Strapi App
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+npx create-strapi-app my-test-app --quickstart
+cd my-test-app
 
-```
-yarn strapi deploy
-```
+🧪 Running the Project
 
-## 📚 Learn more
+npm run develop
+Admin panel runs at: http://localhost:1337/admin
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+🏗️ Content Type - Marvel
+Fields added:
+- title (Text)
+- description (Rich Text)
+- image (Media)
+Created via admin panel's "Content-Type Builder"
+One entry added to the Marvel collection
+📁 Project Structure
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+my-test-app/
+├── api/
+├── components/
+├── config/
+├── public/
+├── .gitignore
+├── package.json
+├── .env
+├── README.md
 
-## ✨ Community
+🚫 .gitignore Setup
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+node_modules/
+.build/
+.cache/
+.env
+.env.*
+*.log
+*.sqlite
+.vscode/
+.idea/
 
----
+✅ Status
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+| Task                        | Done |
+|-----------------------------|------|
+| Project created with Strapi | ✅   |
+| Marvel content type added   | ✅   |
+| GitHub repo initialized     | ✅   |
+| .gitignore file configured  | ✅   |
+| Pull Request raised         | ✅   |
+
+🔗 Pull Request
+👉 
+🎥 Loom Demo
+🎬 

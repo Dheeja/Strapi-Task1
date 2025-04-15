@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "iron_hearts",
+  "info": {
+    "singularName": "iron-heart",
+    "pluralName": "iron-hearts",
+    "displayName": "IronHeart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Mark46": {
+      "type": "string"
+    },
+    "Marktypes": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  }
+}

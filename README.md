@@ -66,6 +66,8 @@ node_modules/
 | Pull Request raised         | ✅   |
 
 🔗 Pull Request
-👉 
+👉 https://github.com/PearlThoughts-DevOps-Internship/strapi--Monitor-hub/compare/Jaga-Horcrux?expand=1
+
 🎥 Loom Demo
+https://www.loom.com/share/3b011a7617704b3d91dd23803fc460c2?sid=5cc80bc1-a5ca-4ff6-88a8-f96a422f6b34
 🎬 

@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marvels",
+  "info": {
+    "singularName": "marvel",
+    "pluralName": "marvels",
+    "displayName": "marvel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Mark46": {
+      "type": "string"
+    }
+  }
+}

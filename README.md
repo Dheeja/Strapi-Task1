@@ -19,6 +19,14 @@ yarn build
 npx create-strapi-app my-test-app --quickstart
 cd my-test-app
 
+Install dependencies
+
+Yarn install
+
+Yarn build
+
+Yarn develop
+
 🧪 Running the Project
 
 npm run develop

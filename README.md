@@ -118,7 +118,7 @@ ecr_image_url  = "your-ecr-url/strapi-app:latest"
 
 [GitHub - prem-pjena/strapi-app](https://github.com/prem-pjena/strapi-app)
 
-🔗 PR: [prem-task-3](https://github.com/PearlThoughts-DevOps-Internship/strapi--Monitor-hub/pull/5)
+🔗 PR: [prem-task-3](https://github.com/PearlThoughts-DevOps-Internship/strapi--Monitor-hub/pull/7)
 
 ---
 
